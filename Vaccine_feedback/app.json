@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/editor/editor"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/editor/editor",
+      "text": "反馈",
+      "iconPath": "images/Interrogation.png",
+      "selectedIconPath": "images/InterrogationS.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/userS.png"
+    }],
+    "color": "#000000",
+    "selectedColor": "#90EE90",
+    "backgroundColor": "#ffffff"
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
